@@ -15,5 +15,6 @@ public class lisenerconfig1  implements InitializingBean {
     public void afterPropertiesSet() throws Exception {
         rabbitTemplate.setMessageConverter(new Jackson2JsonMessageConverter());
         System.out.println("lisenerconfig");
+        System.out.println("branch test");
     }
 }
